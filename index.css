@@ -47,7 +47,7 @@ body{
     background-color:hsl(213, 19%, 22%) ;
     width: max-content;
     padding: 15px;
-    border-radius: 100%;
+    border-radis: 100%;
     padding-bottom: 10px;
     margin-bottom: 30px;
     margin-top: 15px;
@@ -85,3 +85,42 @@ body{
     margin-top: 20px;
     margin-bottom: 10px;
 }
+#thanks{
+        background-color: hsl(216, 12%, 8%);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        /* ensures content is aligned to the center*/
+        justify-content: center;
+        align-items: center;
+}
+#cards > btn{
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 80px;
+    border: transparent;
+    padding: 10px;
+    color: hsl(216, 12%, 8%);
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 0.2rem;
+    margin-top: 20px;
+    box-shadow: 1px 1px;
+    margin-bottom: 15px;
+    padding-top: 15px; 
+}
+#cards > h1{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+}
+#cards > p{
+    color:hsl(217, 12%, 63%) ;
+    width: 22rem;
+    line-height: 1.6rem;
+}
+
+#card{
+    background-color:hsl(213, 19%, 18%);
+    padding: 20px;
+    border-radius: 30px;
+    }
